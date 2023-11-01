@@ -1,5 +1,5 @@
 # CallendarVanDusen
-A simple Julia package that implements the [Callendar Van Dusen equation](https://en.wikipedia.org/wiki/Callendar%E2%80%93Van_Dusen_equation). This equation applies to Platinum Resistive Thermometers (PRTs), and related temperature and resistance. 
+A simple Julia package that implements the [Callendar Van Dusen equation](https://en.wikipedia.org/wiki/Callendar%E2%80%93Van_Dusen_equation). This equation applies to Platinum Resistive Thermometers (PRTs), and defined functional relationships between temperature and resistance. 
 
 This package does not export the main functions `R` and `t`, due to possibility of name-clashing. It instead exports `CVD` as an alias for `CallendarVanDusen`, allowing users to write `CVD.R` and `CVD.t` to access the functions.
 
