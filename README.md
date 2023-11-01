@@ -91,4 +91,4 @@ help?> CVD.t
 
 `CVD.t(R_meas, R0)` finds and returns the temperature `t` that corresponds to a resistance of `R_meas`. It does this by solving `CVD.R(t, R0) - R_meas = 0` for `t`, numerically.
 
-If anything is still confusing, do not hesitate to open up an issue about what is confusing.
+If anything is still confusing, do not hesitate to open up an issue asking about whatever is unclear.
